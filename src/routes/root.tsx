@@ -1,10 +1,15 @@
-import * as React from 'react';
-import LandingPage from '../components/LandingPage';
+import NavBar from '../components/navigation/NavBar'
+import { Outlet } from "react-router-dom"
 
 
 export default function Root() {
   return (
-    <LandingPage />
+    <div className='flex flex-col h-screen'>
+        <NavBar />
+        <div id='detail' className='flex flex-1'>
+            <Outlet />
+        </div>
+    </div>
   )
 }
 

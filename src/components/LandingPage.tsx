@@ -1,7 +1,7 @@
 export default function LandingPage() {
     return (
-        <body className=" bg-orange-100">
-            <div className="flex w-screen h-screen">
+        <body className="bg-orange-100">
+            <div className="flex w-screen h-full">
                 <div id="contentContainer" className="m-auto w-3/4 ">
                     <div id="titleContainer" className="m-auto">
                         <p className="text-6xl text-orange-950/75 font-semibold text-center">duplantis.org</p>
