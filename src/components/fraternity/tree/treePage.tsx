@@ -1,5 +1,3 @@
-import react, { ReactComponentElement } from "react"
-
 import { ReactComponent as FamilyTreeGen1 } from './trees/familytreegen1.svg'
 import { ReactComponent as FamilyTreeGen2 } from './trees/familytreegen2.svg'
 import { ReactComponent as FamilyTreeGen3 } from './trees/familytreegen3.svg'

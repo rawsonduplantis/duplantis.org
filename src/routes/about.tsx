@@ -1,5 +1,3 @@
-
-
 export default function About() {
     return (
         <body className="bg-orange-100/75 h-full w-screen">

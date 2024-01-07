@@ -7,7 +7,6 @@ import About from './routes/about'
 import Writing from  './routes/writing'
 import Post from './components/writing/Post'
 import LandingPage from './components/LandingPage';
-import Tree from './components/fraternity/tree/treePage'
 
 import {
   createBrowserRouter,
