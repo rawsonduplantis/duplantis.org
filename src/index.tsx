@@ -4,14 +4,16 @@ import './index.css';
 import Root from './routes/root'
 import ErrorPage from './errorPage'
 import About from './routes/about'
-import Dev from  './routes/dev'
-import Post from './components/dev/Post'
+import Writing from  './routes/writing'
+import Post from './components/writing/Post'
 import LandingPage from './components/LandingPage';
+import Tree from './components/fraternity/tree/treePage'
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import TreePage from './components/fraternity/tree/treePage';
 
 
 const root = ReactDOM.createRoot(
@@ -33,12 +35,16 @@ const router = createBrowserRouter([
         element: <LandingPage />
       },
       {
-        path: '/dev',
-        element: <Dev />,
+        path: '/writing',
+        element: <Writing />,
       },
       {
         path: '/dev/post/:postID',
         element: <Post />,
+      },
+      {
+        path: '/fraternity',
+        element: <TreePage />,
       }
     ]
   }

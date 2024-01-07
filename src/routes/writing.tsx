@@ -1,6 +1,6 @@
-import PostLink from "../components/dev/PostLink"
+import PostLink from "../components/writing/PostLink"
 
-export default function Dev() {
+export default function Writing() {
 
     return (
         <body className="flex flex-col bg-orange-100/75 w-full h-full">
