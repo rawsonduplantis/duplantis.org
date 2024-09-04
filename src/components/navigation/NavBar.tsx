@@ -13,6 +13,8 @@ export default function NavBar() {
                 <NavLink destination="passarelleo" home={false}></NavLink>
                 <p className="cursor-default select-none mt-auto mb-auto text-orange-950/75">•</p>  
                 <NavLink destination="about" home={false} />
+                <p className="cursor-default select-none mt-auto mb-auto text-orange-950/75">•</p>  
+                <NavLink destination="imperialism" home={false} />
             </div>
         </div>
     )

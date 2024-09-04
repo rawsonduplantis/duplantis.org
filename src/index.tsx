@@ -8,6 +8,7 @@ import Writing from  './routes/writing'
 import Post from './components/writing/Post'
 import LandingPage from './components/LandingPage';
 import Passarelleo from './routes/passarelleo';
+import Imperialism from './routes/imperialism';
 
 import {
   createBrowserRouter,
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: '/passarelleo',
         element: <Passarelleo />,
+      },
+      {
+        path: '/imperialism',
+        element: <Imperialism />
       }
     ]
   }
