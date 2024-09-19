@@ -7,7 +7,7 @@ import {ReactSVGPanZoom} from 'react-svg-pan-zoom';
 export default function TreePage() {
     
     return (
-        <div className="bg-orange-100/75 flex w-screen h-full flex-col border-2 p-10">
+        <div className="bg-orange-100/75 flex w-screen h-full flex-col p-10">
             {Tree(1)}
             {Tree(2)}
             {Tree(3)}
@@ -41,7 +41,7 @@ function Tree(tree_gen: number) {
         <div className='flex flex-col items-center w-full'>
             <h1 className="flex w-full justify-center p-2 font-bold italic">{tree_title!}</h1>
             <div className="mb-5">
-                <svg className='' width={`${tree_width! * .135}`} viewBox={`0 0 ${tree_width! * 1.18} ${tree_height!}`} xmlns="http://www.w3.org/2000/svg">
+                <svg className='' width={`${tree_width! * .135}`} height={`${tree_height! * .135}`} viewBox={`0 0 ${tree_width! * 1.18} ${tree_height! * 1.2}`} xmlns="http://www.w3.org/2000/svg">
                     {tree}
                 </svg>
             </div>
