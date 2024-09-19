@@ -1,12 +1,13 @@
 import { ReactComponent as FamilyTreeGen1 } from './trees/familytreegen1.svg'
 import { ReactComponent as FamilyTreeGen2 } from './trees/familytreegen2.svg'
 import { ReactComponent as FamilyTreeGen3 } from './trees/familytreegen3.svg'
+import {ReactSVGPanZoom} from 'react-svg-pan-zoom';
 
 
 export default function TreePage() {
     
     return (
-        <div className="bg-orange-100/75 flex w-screen h-full flex-col">
+        <div className="bg-orange-100/75 flex w-screen h-full flex-col border-2 p-10">
             {Tree(1)}
             {Tree(2)}
             {Tree(3)}
@@ -37,13 +38,13 @@ function Tree(tree_gen: number) {
     }
 
     return (
-        <>
+        <div className='flex flex-col items-center w-full'>
             <h1 className="flex w-full justify-center p-2 font-bold italic">{tree_title!}</h1>
-            <div className="m-auto mb-5">
-                <svg width={`${tree_width! * .1}`} viewBox={`0 0 ${tree_width!} ${tree_height!}`} xmlns="http://www.w3.org/2000/svg">
+            <div className="mb-5">
+                <svg className='' width={`${tree_width! * .135}`} viewBox={`0 0 ${tree_width! * 1.18} ${tree_height!}`} xmlns="http://www.w3.org/2000/svg">
                     {tree}
                 </svg>
             </div>
-        </>
+        </div>
     )
 }
