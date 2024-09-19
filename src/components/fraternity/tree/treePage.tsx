@@ -38,7 +38,7 @@ function Tree(tree_gen: number) {
     }
 
     return (
-        <div className='flex flex-col items-center w-full border-2'>
+        <div className='flex flex-col items-center w-full'>
             <h1 className="flex w-full justify-center p-2 font-bold italic mb-1">{tree_title!}</h1>
             <div className="">
                 <svg className='' width={`${tree_width! * .135}`} height={`${tree_height! * .135}`} viewBox={`0 0 ${tree_width! * 1.18} ${tree_height! * 1.2}`} xmlns="http://www.w3.org/2000/svg">
