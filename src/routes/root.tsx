@@ -6,7 +6,7 @@ export default function Root() {
   return (
     <div className='flex flex-col h-screen w-screen'>
         <NavBar />
-        <div id='detail' className='flex h-full flex-1 overflow-y-scroll'>
+        <div id='detail' className='flex min-h-full flex-1 overflow-y-scroll'>
             <Outlet />
         </div>
     </div>
