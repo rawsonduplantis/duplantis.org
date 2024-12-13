@@ -9,6 +9,7 @@ import Post from './components/writing/Post'
 import LandingPage from './components/LandingPage';
 import Passarelleo from './routes/passarelleo';
 import Imperialism from './routes/imperialism';
+import Messages from './routes/messages';
 
 import {
   createBrowserRouter,
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: '/imperialism',
         element: <Imperialism />
+      },
+      {
+        path: '/messages',
+        element: <Messages />
       }
     ]
   }
