@@ -62,7 +62,7 @@ export default function Messages() {
                     <button type="submit" className="w-24 bg-white text-orange-950/75 py-2 px-4 rounded-lg font-semibold border-white hover:border-orange-950 transition ease-in-out duration-200">Submit</button>
                 </form>
                 {/* Loading or error state */}
-                {loading && <p className="text-gray-500">Loading messages...</p>}
+                {loading && <p className="text-gray-500 italic justify-center">Loading messages...</p>}
                 {error && <p className="text-red-500">{error}</p>}
 
                 {/* Render messages */}
