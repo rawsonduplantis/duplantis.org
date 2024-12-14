@@ -25,14 +25,19 @@ export default function Messages() {
         fetchMessages();
     }, []); // Empty dependency array ensures this runs once on mount
 
-    function handleSubmit(e: any) {
+    function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault()
-
-        const form = e.target
+        console.log('submitted form')
+        const form = e.target as HTMLFormElement
         const formData = new FormData(form)
+        // Spitting out data
+        formData.forEach((value, key) => {
+            console.log(`${key}: ${value}`); // Log each form input
+        })
+
         fetch(server + '/post', {
             method: form.method,
-            body: formData
+            body: JSON.stringify(formData)
         })
     }
 
@@ -42,8 +47,8 @@ export default function Messages() {
                 <div className="m-auto">
                     {/* Message input*/}
                     <form method="post" onSubmit={handleSubmit}>
-                        <input type='text' name='aliasInput' defaultValue='anonymous' placeholder='alias' />
-                        <input type='text' name='messageInput' defaultValue='Hello!' placeholder='message' />
+                        <input type='text' name='alias' defaultValue='anonymous' placeholder='alias' />
+                        <input type='text' name='message' defaultValue='Hello!' placeholder='message' />
                         <button type='submit'>Submit</button>
                     </form>
                     {/* Actual messages */}
@@ -51,10 +56,9 @@ export default function Messages() {
                     {error && <p className="text-red-500">{error}</p>} {/* Show error message */}
                     
                     {/* Render messages */}
-                    {!loading && !error && (
-                        <ul className="text-orange-950">
-                            {JSON.stringify(messages)}
-                        </ul>
+                    {!loading && !error && (<>
+                        {JSON.stringify(messages)}
+                    </>
                     )}
                 </div>
             </div>
