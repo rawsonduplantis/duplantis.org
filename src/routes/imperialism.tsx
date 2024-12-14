@@ -39,7 +39,7 @@ export function MapChart() {
 
 export default function Imperialism() {
     return (
-        <body className="bg-orange-100/75 w-screen min-h-screen overflow-auto">
+        <body className="bg-orange-100/75 w-screen min-h-screen overflow-auto pt-16">
             <div className="flex justify-center items-center">
                 <div className="m-auto w-6/12">
                     <MapChart />

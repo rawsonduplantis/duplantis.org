@@ -54,7 +54,7 @@ export default function Messages() {
 
     return (
         <div className="bg-orange-100/75 w-screen min-h-screen overflow-auto">
-            <div className="m-auto w-4/5 md:w-1/2 lg:w-1/3 xl:w-1/4">
+            <div className="m-auto w-4/5 md:w-1/2 xl:w-1/3 2xl:w-1/4 pt-16">
 
                 {/* Message input*/}
                 <form method="post" onSubmit={handleSubmit} className="bg-orange-50/75 border border-orange-950/75 p-2 rounded-lg flex flex-col mt-10 mb-10">

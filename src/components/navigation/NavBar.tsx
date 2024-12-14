@@ -6,7 +6,7 @@ export default function NavBar() {
     const dropDown = () => setDown(!isDown)
 
     return (
-        <div className="drop-shadow-lg"> 
+        <div className="drop-shadow-lg absolute w-full"> 
             <div className="flex flex-row h-16 bg-orange-100 hidden md:flex">
                 <NavLink destination="duplantis.org" home={true} />
                 {/*<NavLink destination="writing" home={false} /> */}
