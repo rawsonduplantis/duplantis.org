@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 export default function Messages() {
-    const [messages, setMessages] = useState([]); // State to store messages
+    const [messages, setMessages] = useState<{ alias: string; message: string }[]>([]); // State to store messages
     const [loading, setLoading] = useState(true); // State for loading status
     const [error, setError] = useState(null); // State for error handling
-    const server = 'https://server.duplantis.org/messages';
     
+    const server = 'https://server.duplantis.org/messages';
     useEffect(() => {
         const fetchMessages = async () => {
              // Ensure the URL is correct
@@ -16,7 +16,8 @@ export default function Messages() {
                 }
                 const data = await response.json();
                 setMessages(data); // Set messages in state
-            } catch (e) {
+            } catch (e: any) {
+                setError(e)
                 console.error('Failed to fetch messages:', e);
             } finally {
                 setLoading(false); // Stop loading once the fetch is done
@@ -31,7 +32,7 @@ export default function Messages() {
         console.log('submitted form')
         const form = e.target as HTMLFormElement
         const formData = new FormData(form)
-        const response = Object.fromEntries(formData.entries());
+        const response = Object.fromEntries(formData.entries()) as { alias: string; message: string };
         // Spitting out data
         formData.forEach((value, key) => {
             console.log(`${key}: ${value}`); // Log each form input
@@ -44,6 +45,7 @@ export default function Messages() {
             },
             body: JSON.stringify(response)
         })
+        setMessages([...messages, response]);    
     }
 
     return (
