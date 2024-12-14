@@ -30,6 +30,7 @@ export default function Messages() {
         console.log('submitted form')
         const form = e.target as HTMLFormElement
         const formData = new FormData(form)
+        const response = Object.fromEntries(formData.entries());
         // Spitting out data
         formData.forEach((value, key) => {
             console.log(`${key}: ${value}`); // Log each form input
@@ -37,7 +38,7 @@ export default function Messages() {
 
         fetch(server + '/post', {
             method: form.method,
-            body: JSON.stringify(formData)
+            body: JSON.stringify(response)
         })
     }
 
