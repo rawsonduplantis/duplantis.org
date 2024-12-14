@@ -37,9 +37,7 @@ export default function Messages() {
                     {/* Render messages */}
                     {!loading && !error && (
                         <ul className="text-orange-950">
-                            {messages.map((message, index) => (
-                                <li key={index}>{message}</li>
-                            ))}
+                            {JSON.stringify(messages)}
                         </ul>
                     )}
                 </div>
