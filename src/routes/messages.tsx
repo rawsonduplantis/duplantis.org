@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { Filter } from 'bad-words'
 
 export default function Messages() {
     const [messages, setMessages] = useState<{ alias: string; message: string }[]>([]); // State to store messages
     const [loading, setLoading] = useState(true); // State for loading status
     const [error, setError] = useState(null); // State for error handling
+    const filter = new Filter()
+    const removeWords = ['wang',]
+    filter.removeWords(...removeWords)
     
     const server = 'https://server.duplantis.org/messages';
     useEffect(() => {
@@ -72,8 +76,8 @@ export default function Messages() {
                     <ul className="space-y-1 mb-10">
                         {messages.toReversed().map((message: any, index: number) => (
                             <li key={index} className="rounded-lg p-1">
-                                <div className="flex text-orange-950/75 justify-center">{message.message}</div>
-                                <div className="flex text-sm text-orange-950/75 justify-center italic">{`— ${message.alias}`}</div>
+                                <div className="flex text-orange-950/75 justify-center">{filter.clean(message.message)}</div>
+                                <div className="flex text-sm text-orange-950/75 justify-center italic">{`— ${filter.clean(message.alias)}`}</div>
                             </li>
                         ))}
                     </ul>
