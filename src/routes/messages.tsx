@@ -5,6 +5,7 @@ export default function Messages() {
     const [loading, setLoading] = useState(true); // State for loading status
     const [error, setError] = useState(null); // State for error handling
     const server = 'https://server.duplantis.org/messages';
+    
     useEffect(() => {
         const fetchMessages = async () => {
              // Ensure the URL is correct
@@ -38,6 +39,9 @@ export default function Messages() {
 
         fetch(server + '/post', {
             method: form.method,
+            headers: {
+                'Content-Type': 'application/json', // Set the Content-Type header
+            },
             body: JSON.stringify(response)
         })
     }
@@ -45,22 +49,34 @@ export default function Messages() {
     return (
         <div className="bg-orange-100/75 h-full w-screen">
             <div className="flex h-full">
-                <div className="m-auto">
+                <div className="m-auto w-1/3">
                     {/* Message input*/}
-                    <form method="post" onSubmit={handleSubmit}>
-                        <input type='text' name='alias' defaultValue='anonymous' placeholder='alias' />
-                        <input type='text' name='message' defaultValue='Hello!' placeholder='message' />
-                        <button type='submit'>Submit</button>
+                    <form method="post" onSubmit={handleSubmit} className="bg-orange-50/75 border border-orange-950/75 p-2 rounded-lg justify-items-center mb-5">
+                        <div className="mb-4">
+                            <input id="alias" type="text" name="alias" placeholder="Enter your alias" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
+                        </div>
+                        <div className="mb-4">
+                            <textarea id="message" name="message" placeholder="Enter your message" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" rows={3} required />
+                        </div>
+                        <button type="submit" className="w-24 bg-white text-orange-950/75 py-2 px-4 rounded-lg font-semibold border-white hover:border-orange-950 transition ease-in-out duration-200">Submit</button>
                     </form>
-                    {/* Actual messages */}
-                    {loading && <p>Loading messages...</p>} {/* Show loading state */}
-                    {error && <p className="text-red-500">{error}</p>} {/* Show error message */}
-                    
+                    {/* Loading or error state */}
+                    {loading && <p className="text-gray-500">Loading messages...</p>}
+                    {error && <p className="text-red-500">{error}</p>}
+
                     {/* Render messages */}
-                    {!loading && !error && (<>
-                        {JSON.stringify(messages)}
-                    </>
+                    {!loading && !error && messages.length > 0 && (
+                        <ul className="space-y-1">
+                            {messages.toReversed().map((message: any, index: number) => (
+                                <li key={index} className="rounded-lg p-1">
+                                    <div className="flex text-orange-950/75 justify-center">{message.message}</div>
+                                    <div className="flex text-sm text-orange-950/75 justify-center italic">{`— ${message.alias}`}</div>
+                                </li>
+                            ))}
+                        </ul>
                     )}
+                    {/* No messages */}
+                    {!loading && !error && messages.length === 0 && (<p className="text-gray-500">No messages yet. Be the first to send one!</p>)}
                 </div>
             </div>
         </div>
