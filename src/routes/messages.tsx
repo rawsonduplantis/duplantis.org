@@ -7,7 +7,7 @@ export default function Messages() {
 
     useEffect(() => {
         const fetchMessages = async () => {
-            const server = 'https://server.duplantis.org/view'; // Ensure the URL is correct
+            const server = 'https://server.duplantis.org/messages'; // Ensure the URL is correct
             try {
                 const response = await fetch(server);
                 if (!response.ok) {
