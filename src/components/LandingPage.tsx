@@ -1,6 +1,6 @@
 export default function LandingPage() {
     return (
-        <div className="bg-orange-100/75 flex items-center justify-center w-full h-full">
+        <div className="bg-orange-100/75 w-screen min-h-full overflow-auto flex justify-center items-center">
             <div className="w-3/4">
                 <div className="text-center">
                     <p className="text-6xl text-orange-950/75 font-semibold cursor-default select-none">duplantis.org</p>

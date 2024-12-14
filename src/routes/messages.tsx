@@ -50,17 +50,19 @@ export default function Messages() {
 
     return (
         <div className="bg-orange-100/75 w-screen min-h-screen overflow-auto">
-            <div className="m-auto w-1/3">
+            <div className="m-auto w-4/5 md:w-1/2 lg:w-1/3 xl:w-1/4">
+
                 {/* Message input*/}
-                <form method="post" onSubmit={handleSubmit} className="bg-orange-50/75 border border-orange-950/75 p-2 rounded-lg justify-items-center m-10">
+                <form method="post" onSubmit={handleSubmit} className="bg-orange-50/75 border border-orange-950/75 p-2 rounded-lg flex flex-col mt-10 mb-10">
                     <div className="mb-4">
                         <input id="alias" type="text" name="alias" placeholder="Enter your alias" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
                     </div>
                     <div className="mb-4">
                         <input id="message" name="message" placeholder="Enter your message" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
                     </div>
-                    <button type="submit" className="w-24 bg-white text-orange-950/75 py-2 px-4 rounded-lg font-semibold border-white hover:border-orange-950 transition ease-in-out duration-200">Submit</button>
+                    <button type="submit" className="w-24 bg-white text-orange-950/75 py-2 px-4 rounded-lg font-semibold border-white hover:border-orange-950 transition ease-in-out duration-200 m-auto">Submit</button>
                 </form>
+
                 {/* Loading or error state */}
                 {loading && <p className="text-gray-500 italic justify-center">Loading messages...</p>}
                 {error && <p className="text-red-500">{error}</p>}
@@ -76,9 +78,11 @@ export default function Messages() {
                         ))}
                     </ul>
                 )}
+
                 {/* No messages */}
                 {!loading && !error && messages.length === 0 && (<p className="text-gray-500">No messages yet. Be the first to send one!</p>)}
             </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         </div>
     );
 }
