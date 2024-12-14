@@ -4,10 +4,10 @@ export default function Messages() {
     const [messages, setMessages] = useState([]); // State to store messages
     const [loading, setLoading] = useState(true); // State for loading status
     const [error, setError] = useState(null); // State for error handling
-
+    const server = 'https://server.duplantis.org/messages';
     useEffect(() => {
         const fetchMessages = async () => {
-            const server = 'https://server.duplantis.org/messages'; // Ensure the URL is correct
+             // Ensure the URL is correct
             try {
                 const response = await fetch(server);
                 if (!response.ok) {
@@ -25,12 +25,28 @@ export default function Messages() {
         fetchMessages();
     }, []); // Empty dependency array ensures this runs once on mount
 
+    function handleSubmit(e: any) {
+        e.preventDefault()
+
+        const form = e.target
+        const formData = new FormData(form)
+        fetch(server + '/post', {
+            method: form.method,
+            body: formData
+        })
+    }
+
     return (
         <div className="bg-orange-100/75 h-full w-screen">
             <div className="flex h-full">
                 <div className="m-auto">
-                    <p className="text-1xl text-orange-950/75 text-center cursor-default select-none">Messages:</p>
-
+                    {/* Message input*/}
+                    <form method="post" onSubmit={handleSubmit}>
+                        <input type='text' name='aliasInput' defaultValue='anonymous' placeholder='alias' />
+                        <input type='text' name='messageInput' defaultValue='Hello!' placeholder='message' />
+                        <button type='submit'>Submit</button>
+                    </form>
+                    {/* Actual messages */}
                     {loading && <p>Loading messages...</p>} {/* Show loading state */}
                     {error && <p className="text-red-500">{error}</p>} {/* Show error message */}
                     
