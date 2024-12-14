@@ -54,13 +54,13 @@ export default function Messages() {
 
                 {/* Message input*/}
                 <form method="post" onSubmit={handleSubmit} className="bg-orange-50/75 border border-orange-950/75 p-2 rounded-lg flex flex-col mt-10 mb-10">
-                    <div className="mb-4">
+                    <div className="m-2">
                         <input id="alias" type="text" name="alias" placeholder="Enter your alias" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
                     </div>
-                    <div className="mb-4">
+                    <div className="m-2">
                         <input id="message" name="message" placeholder="Enter your message" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
                     </div>
-                    <button type="submit" className="w-24 bg-white text-orange-950/75 py-2 px-4 rounded-lg font-semibold border-white hover:border-orange-950 transition ease-in-out duration-200 m-auto">Submit</button>
+                    <button type="submit" className="w-24 m-2 ml-auto mr-auto bg-orange-950/75 hover:bg-orange-950/80 active:bg-orange-950/90 text-white py-2 px-4 rounded-lg font-semibold m-auto">Submit</button>
                 </form>
 
                 {/* Loading or error state */}
