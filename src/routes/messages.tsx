@@ -49,37 +49,35 @@ export default function Messages() {
     }
 
     return (
-        <div className="bg-orange-100/75 h-full w-screen">
-            <div className="flex h-full">
-                <div className="m-auto w-1/3">
-                    {/* Message input*/}
-                    <form method="post" onSubmit={handleSubmit} className="bg-orange-50/75 border border-orange-950/75 p-2 rounded-lg justify-items-center mb-5">
-                        <div className="mb-4">
-                            <input id="alias" type="text" name="alias" placeholder="Enter your alias" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
-                        </div>
-                        <div className="mb-4">
-                            <textarea id="message" name="message" placeholder="Enter your message" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" rows={3} required />
-                        </div>
-                        <button type="submit" className="w-24 bg-white text-orange-950/75 py-2 px-4 rounded-lg font-semibold border-white hover:border-orange-950 transition ease-in-out duration-200">Submit</button>
-                    </form>
-                    {/* Loading or error state */}
-                    {loading && <p className="text-gray-500">Loading messages...</p>}
-                    {error && <p className="text-red-500">{error}</p>}
+        <div className="bg-orange-100/75 w-screen min-h-screen overflow-auto">
+            <div className="m-auto w-1/3">
+                {/* Message input*/}
+                <form method="post" onSubmit={handleSubmit} className="bg-orange-50/75 border border-orange-950/75 p-2 rounded-lg justify-items-center m-10">
+                    <div className="mb-4">
+                        <input id="alias" type="text" name="alias" placeholder="Enter your alias" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
+                    </div>
+                    <div className="mb-4">
+                        <input id="message" name="message" placeholder="Enter your message" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
+                    </div>
+                    <button type="submit" className="w-24 bg-white text-orange-950/75 py-2 px-4 rounded-lg font-semibold border-white hover:border-orange-950 transition ease-in-out duration-200">Submit</button>
+                </form>
+                {/* Loading or error state */}
+                {loading && <p className="text-gray-500">Loading messages...</p>}
+                {error && <p className="text-red-500">{error}</p>}
 
-                    {/* Render messages */}
-                    {!loading && !error && messages.length > 0 && (
-                        <ul className="space-y-1">
-                            {messages.toReversed().map((message: any, index: number) => (
-                                <li key={index} className="rounded-lg p-1">
-                                    <div className="flex text-orange-950/75 justify-center">{message.message}</div>
-                                    <div className="flex text-sm text-orange-950/75 justify-center italic">{`— ${message.alias}`}</div>
-                                </li>
-                            ))}
-                        </ul>
-                    )}
-                    {/* No messages */}
-                    {!loading && !error && messages.length === 0 && (<p className="text-gray-500">No messages yet. Be the first to send one!</p>)}
-                </div>
+                {/* Render messages */}
+                {!loading && !error && messages.length > 0 && (
+                    <ul className="space-y-1 mb-10">
+                        {messages.toReversed().map((message: any, index: number) => (
+                            <li key={index} className="rounded-lg p-1">
+                                <div className="flex text-orange-950/75 justify-center">{message.message}</div>
+                                <div className="flex text-sm text-orange-950/75 justify-center italic">{`— ${message.alias}`}</div>
+                            </li>
+                        ))}
+                    </ul>
+                )}
+                {/* No messages */}
+                {!loading && !error && messages.length === 0 && (<p className="text-gray-500">No messages yet. Be the first to send one!</p>)}
             </div>
         </div>
     );
