@@ -1,12 +1,16 @@
 import NavLink from "./NavLink"
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 export default function NavBar() {
     const [isDown, setDown] = useState(false)
     const dropDown = () => setDown(!isDown)
-
+    const wrapperRef = useRef<HTMLDivElement>(null)
+    useClickOutside(wrapperRef, () => {
+        setDown(false)
+    })
+    
     return (
-        <div className="drop-shadow-lg absolute w-full"> 
+        <div ref={wrapperRef} className="drop-shadow-lg absolute w-full"> 
             <div className="flex flex-row h-16 bg-orange-100 hidden md:flex">
                 <NavLink destination="duplantis.org" home={true} />
                 {/*<NavLink destination="writing" home={false} /> */}
@@ -36,3 +40,22 @@ export default function NavBar() {
         </div>
     )
 }
+
+function useClickOutside(ref: any, onClickOutside: any) {
+    useEffect(() => {
+      /**
+       * Invoke Function onClick outside of element
+       */
+      function handleClickOutside(event: any) {
+        if (ref.current && !ref.current.contains(event.target)) {
+          onClickOutside();
+        }
+      }
+      // Bind
+      document.addEventListener("mousedown", handleClickOutside);
+      return () => {
+        // dispose
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }, [ref, onClickOutside]);
+  }

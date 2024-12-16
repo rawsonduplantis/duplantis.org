@@ -57,14 +57,14 @@ export default function Messages() {
             <div className="m-auto w-4/5 md:w-1/2 xl:w-1/3 2xl:w-1/4 pt-16">
 
                 {/* Message input*/}
-                <form method="post" onSubmit={handleSubmit} className="bg-orange-50/75 border border-orange-950/75 p-2 rounded-lg flex flex-col mt-10 mb-10">
-                    <div className="m-2">
+                <form method="post" onSubmit={handleSubmit} className="space-y-4 bg-orange-50/75 border border-orange-950/75 p-4 rounded-lg flex flex-col mt-10 mb-10">
+                    <div className="">
                         <input id="alias" type="text" name="alias" placeholder="Enter your alias" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
                     </div>
-                    <div className="m-2">
+                    <div className="">
                         <input id="message" name="message" placeholder="Enter your message" className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
                     </div>
-                    <button type="submit" className="w-24 m-2 ml-auto mr-auto bg-orange-950/75 hover:bg-orange-950/80 active:bg-orange-950/90 text-white py-2 px-4 rounded-lg font-semibold m-auto">Submit</button>
+                    <button type="submit" className="w-24 ml-auto mr-auto bg-orange-950/75 hover:bg-orange-950/80 active:bg-orange-950/90 text-white py-2 px-4 rounded-lg font-semibold m-auto">Submit</button>
                 </form>
 
                 {/* Loading or error state */}
