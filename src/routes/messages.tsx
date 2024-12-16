@@ -33,14 +33,9 @@ export default function Messages() {
 
     function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault()
-        console.log('submitted form')
         const form = e.target as HTMLFormElement
         const formData = new FormData(form)
         const response = Object.fromEntries(formData.entries()) as { alias: string; message: string };
-        // Spitting out data
-        formData.forEach((value, key) => {
-            console.log(`${key}: ${value}`); // Log each form input
-        })
 
         fetch(server + '/post', {
             method: form.method,

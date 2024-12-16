@@ -3,7 +3,7 @@ export default function LandingPage() {
         <div className="bg-orange-100/75 w-screen min-h-full overflow-auto flex justify-center items-center">
             <div className="w-3/4">
                 <div className="text-center">
-                    <p className="text-6xl text-orange-950/75 font-semibold cursor-default select-none">duplantis.org</p>
+                    <p className="text-5xl md:text-6xl text-orange-950/75 font-semibold cursor-default select-none">duplantis.org</p>
                     <p className="text-1xl text-orange-900/75 cursor-default select-none">Check back later...</p>
                     <a className="cursor-default" href="https://www.linkedin.com/in/rawsonduplantis">
                         <svg xmlns="http://www.w3.org/2000/svg" className="cursor-pointer mt-2 mx-auto stroke-orange-900/75 w-8 h-8" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >

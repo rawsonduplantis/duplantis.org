@@ -1,7 +1,8 @@
 import NavLink from "./NavLink"
-import React, { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 export default function NavBar() {
+
     const [isDown, setDown] = useState(false)
     const dropDown = () => setDown(!isDown)
     const wrapperRef = useRef<HTMLDivElement>(null)
@@ -28,19 +29,17 @@ export default function NavBar() {
                 <button onClick={dropDown} className="ml-auto pr-5 self-center">
                     <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#724B3B"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
                 </button>
-                {isDown && (
-                    <ul className="absolute grid flex-col bg-orange-50/90 p-5 top-16 w-full justify-items-end justify-self-end right-0 space-y-5">
-                        <li><NavLink destination="fraternity" home={false} /></li>
-                        <li><NavLink destination="messages" home={false} /> </li>
-                        <li><NavLink destination="about" home={false} /></li>
-                    </ul>
-                )}
+                <ul className={`absolute grid flex-col bg-orange-50/90 p-5 top-16 w-full justify-items-end justify-self-end right-0 space-y-5 ${isDown ? 'opacity-100' : 'opacity-0'} transition-opacity duration-100 ease-in-out`}>
+                    <li className={`${isDown ? 'visible' : 'collapse'} transition-all duration-100 ease-in-out`}><NavLink destination="fraternity" home={false} /></li>
+                    <li className={`${isDown ? 'visible' : 'collapse'} transition-all duration-100 ease-in-out`}><NavLink destination="messages" home={false} /> </li>
+                    <li className={`${isDown ? 'visible' : 'collapse'} transition-all duration-100 ease-in-out`}><NavLink destination="about" home={false} /></li>
+                </ul>
             </div>
-            
         </div>
     )
 }
 
+// Outside click collapse handler
 function useClickOutside(ref: any, onClickOutside: any) {
     useEffect(() => {
       /**

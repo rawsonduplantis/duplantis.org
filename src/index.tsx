@@ -18,7 +18,6 @@ import {
 } from "react-router-dom";
 import TreePage from './components/fraternity/tree/treePage';
 
-
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

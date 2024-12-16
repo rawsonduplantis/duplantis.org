@@ -4,9 +4,9 @@ export default function NavLink({destination, home}: {destination: string, home:
     let link;
 
     if (home) {
-        link = <Link to='/' className='text-orange-950/75 font-semibold m-auto'>duplantis.org</Link>
+        link = <Link to='/' className={`text-orange-950/75 font-semibold m-auto`}>duplantis.org</Link>
     } else {
-        link = <Link to={`${destination.toLowerCase()}` } className='text-orange-950/75 font-semibold m-auto'>{destination}</Link>
+        link = <Link to={`${destination.toLowerCase()}` } className={`text-orange-950/75 font-semibold m-auto`}>{destination}</Link>
     }
     
     return (
