@@ -11,6 +11,7 @@ import Passarelleo from './routes/passarelleo';
 import Imperialism from './routes/imperialism';
 import Messages from './routes/messages';
 import Fraternity from './routes/fraternity';
+import FullTree from './routes/fulltree'
 
 import {
   createBrowserRouter,
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path: '/messages',
         element: <Messages />
+      },
+      {
+        path: '/fraternitytree',
+        element: <FullTree />
       }
     ]
   }
