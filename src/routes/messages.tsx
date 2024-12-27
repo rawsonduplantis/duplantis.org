@@ -14,12 +14,17 @@ export default function Messages() {
         const fetchMessages = async () => {
              // Ensure the URL is correct
             try {
-                const response = await fetch(server);
+                const response = await fetch(server, {
+                    method: 'GET',
+                    headers: {'Content-Type': 'application/json'},
+                    credentials: 'same-origin'
+                });
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
                 setMessages(data); // Set messages in state
+
             } catch (e: any) {
                 setError(e)
                 console.error('Failed to fetch messages:', e);
