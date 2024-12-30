@@ -1,5 +1,8 @@
+import NavBar from '../components/navigation/NavBar'
+
 export default function About() {
-    return (
+    return (<>
+        <NavBar />
         <body className="bg-orange-100/75 h-full w-screen pt-16">
             <div className="flex h-full">
                 <div className="m-auto">
@@ -8,5 +11,7 @@ export default function About() {
                 </div>
             </div>
         </body>
+    </>
+        
     )
 }

@@ -10,14 +10,15 @@ import LandingPage from './components/LandingPage';
 import Passarelleo from './routes/passarelleo';
 import Imperialism from './routes/imperialism';
 import Messages from './routes/messages';
-import Fraternity from './routes/fraternity';
+import Fraternity from './unused components/fraternity';
 import FullTree from './routes/fulltree'
+import NavBar from './components/navigation/NavBar';
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import TreePage from './components/fraternity/tree/treePage';
+import TreePage from './unused components/tree/treePage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

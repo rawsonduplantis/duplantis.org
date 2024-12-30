@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Filter } from 'bad-words'
+import NavBar from '../components/navigation/NavBar'
 
 export default function Messages() {
     const [messages, setMessages] = useState<{ alias: string; message: string }[]>([]); // State to store messages
@@ -52,7 +53,8 @@ export default function Messages() {
         setMessages([...messages, response]);    
     }
 
-    return (
+    return (<>
+        <NavBar />
         <div className="bg-orange-100/75 w-screen min-h-screen overflow-auto">
             <div className="m-auto w-4/5 md:w-1/2 xl:w-1/3 2xl:w-1/4 pt-16">
 
@@ -88,5 +90,7 @@ export default function Messages() {
             </div>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         </div>
+    </>
+        
     );
 }

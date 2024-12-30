@@ -1,6 +1,7 @@
 import React from "react";
 // @ts-ignore
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
+import NavBar from '../components/navigation/NavBar'
 
 const geoUrl = "https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/us.json"
 
@@ -38,7 +39,8 @@ export function MapChart() {
 }
 
 export default function Imperialism() {
-    return (
+    return (<>
+        <NavBar />
         <body className="bg-orange-100/75 w-screen min-h-screen overflow-auto pt-16">
             <div className="flex justify-center items-center">
                 <div className="m-auto w-6/12">
@@ -46,5 +48,7 @@ export default function Imperialism() {
                 </div>
             </div>
         </body>
+    </>
+        
     )
 }

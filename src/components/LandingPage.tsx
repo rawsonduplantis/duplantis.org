@@ -1,5 +1,8 @@
+import NavBar from "./navigation/NavBar";
+
 export default function LandingPage() {
-    return (
+    return (<>
+        <NavBar />
         <div className="bg-orange-100/75 w-screen min-h-full overflow-auto flex justify-center items-center">
             <div className="w-3/4">
                 <div className="text-center">
@@ -13,5 +16,5 @@ export default function LandingPage() {
                 </div>
             </div>
         </div>
-    );
+    </>);
 }
