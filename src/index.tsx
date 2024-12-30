@@ -10,7 +10,7 @@ import LandingPage from './components/LandingPage';
 import Passarelleo from './routes/passarelleo';
 import Imperialism from './routes/imperialism';
 import Messages from './routes/messages';
-import Fraternity from './unused components/fraternity';
+import Fraternity from './routes/fraternity';
 import FullTree from './routes/fulltree'
 import NavBar from './components/navigation/NavBar';
 
