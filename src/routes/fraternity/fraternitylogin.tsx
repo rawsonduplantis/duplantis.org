@@ -10,26 +10,26 @@ export default function FraternityLogin() {
     const nav = useNavigate()
 
     function submitUser(event: any) {
-        /*
+        let code = codestart + codeend
         event.preventDefault()
-        fetch('/api/auth', {
+        fetch('https://server.duplantis.org/fraternity/login', {
             method: 'POST',
-            headers: {
-            'content-type': 'application/json',
-            },
-            body: JSON.stringify({ username, password }),
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ lastname, scroll, code}),
         })
             .then((res) => res.json())
             .then((data) => {
             if (data.message === 'success') {
-                //localStorage.setItem('jwt-token', data.token)
-                //setUsername('')
-                //setPassword('')
+                localStorage.setItem('jwt-token', data.token)
+                setLastname('')
+                setScroll('')
+                setCodestart('')
+                setCodeend('')
                 nav('/fraternity')
             } else { alert(data.message) }
         })
-        */
-       console.log(lastname, scroll, codestart, codeend)
+        
+       //console.log(lastname, scroll, codestart, codeend)
     }
 
     return (<>
