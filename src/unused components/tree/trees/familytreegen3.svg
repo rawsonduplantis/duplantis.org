@@ -15,7 +15,7 @@
 <path fill="#757171" stroke="black" d="M132,-2988C132,-2988 12,-2988 12,-2988 6,-2988 0,-2982 0,-2976 0,-2976 0,-2928 0,-2928 0,-2922 6,-2916 12,-2916 12,-2916 132,-2916 132,-2916 138,-2916 144,-2922 144,-2928 144,-2928 144,-2976 144,-2976 144,-2982 138,-2988 132,-2988"/>
 <text text-anchor="start" x="68.25" y="-2964.57" font-family="Times New Roman" font-size="14.00" fill="#aeaaaa">3</text>
 <text text-anchor="start" x="29.25" y="-2947.32" font-family="Times New Roman" font-size="14.00" fill="#aeaaaa">Paul Kluge, Jr.</text>
-<text text-anchor="start" x="19.12" y="-2930.07" font-family="Times New Roman" font-size="14.00" fill="#aeaaaa">† FoundingFather</text>
+<text text-anchor="start" x="15.75" y="-2930.07" font-family="Times New Roman" font-size="14.00" fill="#aeaaaa">✝ Founding Father</text>
 </a>
 </g>
 </g>
@@ -43,7 +43,7 @@
 <path fill="#757171" stroke="black" d="M132,-2772C132,-2772 12,-2772 12,-2772 6,-2772 0,-2766 0,-2760 0,-2760 0,-2712 0,-2712 0,-2706 6,-2700 12,-2700 12,-2700 132,-2700 132,-2700 138,-2700 144,-2706 144,-2712 144,-2712 144,-2760 144,-2760 144,-2766 138,-2772 132,-2772"/>
 <text text-anchor="start" x="64.5" y="-2748.57" font-family="Times New Roman" font-size="14.00" fill="#aeaaaa">19</text>
 <text text-anchor="start" x="46.12" y="-2731.32" font-family="Times New Roman" font-size="14.00" fill="#aeaaaa">Bill Cave</text>
-<text text-anchor="start" x="19.12" y="-2714.07" font-family="Times New Roman" font-size="14.00" fill="#aeaaaa">† FoundingFather</text>
+<text text-anchor="start" x="15.75" y="-2714.07" font-family="Times New Roman" font-size="14.00" fill="#aeaaaa">✝ FoundingFather</text>
 </a>
 </g>
 </g>
@@ -616,7 +616,7 @@
 <path fill="#7030a0" stroke="black" d="M2359,-2664C2359,-2664 2239,-2664 2239,-2664 2233,-2664 2227,-2658 2227,-2652 2227,-2652 2227,-2604 2227,-2604 2227,-2598 2233,-2592 2239,-2592 2239,-2592 2359,-2592 2359,-2592 2365,-2592 2371,-2598 2371,-2604 2371,-2604 2371,-2652 2371,-2652 2371,-2658 2365,-2664 2359,-2664"/>
 <text text-anchor="start" x="2287.75" y="-2640.57" font-family="Times New Roman" font-size="14.00" fill="#ffffff">146</text>
 <text text-anchor="start" x="2255.12" y="-2623.32" font-family="Times New Roman" font-size="14.00" fill="#ffffff">Coy Gassaway</text>
-<text text-anchor="start" x="2288.12" y="-2606.07" font-family="Times New Roman" font-size="14.00" fill="#ffffff">† Θ</text>
+<text text-anchor="start" x="2284.75" y="-2606.07" font-family="Times New Roman" font-size="14.00" fill="#ffffff">✝ Θ</text>
 </a>
 </g>
 </g>
@@ -1084,7 +1084,7 @@
 <path fill="#00ccff" stroke="black" d="M901,-2340C901,-2340 781,-2340 781,-2340 775,-2340 769,-2334 769,-2328 769,-2328 769,-2280 769,-2280 769,-2274 775,-2268 781,-2268 781,-2268 901,-2268 901,-2268 907,-2268 913,-2274 913,-2280 913,-2280 913,-2328 913,-2328 913,-2334 907,-2340 901,-2340"/>
 <text text-anchor="start" x="829.75" y="-2316.57" font-family="Times New Roman" font-size="14.00" fill="#d9e1f2">177</text>
 <text text-anchor="start" x="799" y="-2299.32" font-family="Times New Roman" font-size="14.00" fill="#d9e1f2">Corey Higgins</text>
-<text text-anchor="start" x="830.5" y="-2282.07" font-family="Times New Roman" font-size="14.00" fill="#d9e1f2">† Ν</text>
+<text text-anchor="start" x="827.12" y="-2282.07" font-family="Times New Roman" font-size="14.00" fill="#d9e1f2">✝ Ν</text>
 </a>
 </g>
 </g>
@@ -1596,7 +1596,7 @@
 <path fill="#ffc000" stroke="black" d="M6487,-2772C6487,-2772 6367,-2772 6367,-2772 6361,-2772 6355,-2766 6355,-2760 6355,-2760 6355,-2712 6355,-2712 6355,-2706 6361,-2700 6367,-2700 6367,-2700 6487,-2700 6487,-2700 6493,-2700 6499,-2706 6499,-2712 6499,-2712 6499,-2760 6499,-2760 6499,-2766 6493,-2772 6487,-2772"/>
 <text text-anchor="start" x="6415.75" y="-2748.57" font-family="Times New Roman" font-size="14.00" fill="#806000">259</text>
 <text text-anchor="start" x="6398.88" y="-2731.32" font-family="Times New Roman" font-size="14.00" fill="#806000">Ty Tatum</text>
-<text text-anchor="start" x="6416.12" y="-2714.07" font-family="Times New Roman" font-size="14.00" fill="#806000">† Θ</text>
+<text text-anchor="start" x="6412.75" y="-2714.07" font-family="Times New Roman" font-size="14.00" fill="#806000">✝ Θ</text>
 </a>
 </g>
 </g>
@@ -2048,7 +2048,7 @@
 <polygon fill="#ffc000" stroke="black" points="10822,-2772 10678,-2772 10678,-2700 10822,-2700 10822,-2772"/>
 <text text-anchor="start" x="10738.75" y="-2748.57" font-family="Times New Roman" font-size="14.00" fill="#806000">291</text>
 <text text-anchor="start" x="10697.88" y="-2731.32" font-family="Times New Roman" font-size="14.00" fill="#806000">Anthony Sprague</text>
-<text text-anchor="start" x="10730.5" y="-2714.07" font-family="Times New Roman" font-size="14.00" fill="#806000">† Ξ ♔</text>
+<text text-anchor="start" x="10727.12" y="-2714.07" font-family="Times New Roman" font-size="14.00" fill="#806000">✝ Ξ ♔</text>
 </a>
 </g>
 </g>
@@ -2286,7 +2286,7 @@
 <path fill="#ffc000" stroke="black" d="M6845,-2556C6845,-2556 6725,-2556 6725,-2556 6719,-2556 6713,-2550 6713,-2544 6713,-2544 6713,-2496 6713,-2496 6713,-2490 6719,-2484 6725,-2484 6725,-2484 6845,-2484 6845,-2484 6851,-2484 6857,-2490 6857,-2496 6857,-2496 6857,-2544 6857,-2544 6857,-2550 6851,-2556 6845,-2556"/>
 <text text-anchor="start" x="6773.75" y="-2532.57" font-family="Times New Roman" font-size="14.00" fill="#806000">316</text>
 <text text-anchor="start" x="6754.25" y="-2515.32" font-family="Times New Roman" font-size="14.00" fill="#806000">Eric Haley</text>
-<text text-anchor="start" x="6775.25" y="-2498.07" font-family="Times New Roman" font-size="14.00" fill="#806000">† Ρ</text>
+<text text-anchor="start" x="6771.88" y="-2498.07" font-family="Times New Roman" font-size="14.00" fill="#806000">✝ Ρ</text>
 </a>
 </g>
 </g>
@@ -2320,8 +2320,8 @@
 <path fill="#c65911" stroke="black" d="M4910,-2448C4910,-2448 4790,-2448 4790,-2448 4784,-2448 4778,-2442 4778,-2436 4778,-2436 4778,-2388 4778,-2388 4778,-2382 4784,-2376 4790,-2376 4790,-2376 4910,-2376 4910,-2376 4916,-2376 4922,-2382 4922,-2388 4922,-2388 4922,-2436 4922,-2436 4922,-2442 4916,-2448 4910,-2448"/>
 <text text-anchor="start" x="4838.75" y="-2420.7" font-family="Times New Roman" font-size="14.00" fill="#ffd966">306</text>
 <text text-anchor="start" x="4791.12" y="-2406.7" font-family="Times New Roman" font-size="14.00" fill="#ffd966">George Zafereo, Jr.</text>
-<text text-anchor="start" x="4808" y="-2392.7" font-family="Times New Roman" font-size="14.00" fill="#ffd966">† </text>
-<text text-anchor="start" x="4820" y="-2392.7" font-family="Times New Roman" font-style="italic" font-size="14.00" fill="#ffd966">Hon. Father</text>
+<text text-anchor="start" x="4803.5" y="-2392.7" font-family="Times New Roman" font-size="14.00" fill="#ffd966">✝ </text>
+<text text-anchor="start" x="4824.5" y="-2392.7" font-family="Times New Roman" font-style="italic" font-size="14.00" fill="#ffd966">Hon. Father</text>
 </a>
 </g>
 </g>
@@ -2474,7 +2474,7 @@
 <path fill="#c6efce" stroke="black" d="M8089,-2448C8089,-2448 7969,-2448 7969,-2448 7963,-2448 7957,-2442 7957,-2436 7957,-2436 7957,-2388 7957,-2388 7957,-2382 7963,-2376 7969,-2376 7969,-2376 8089,-2376 8089,-2376 8095,-2376 8101,-2382 8101,-2388 8101,-2388 8101,-2436 8101,-2436 8101,-2442 8095,-2448 8089,-2448"/>
 <text text-anchor="start" x="8017.75" y="-2424.57" font-family="Times New Roman" font-size="14.00" fill="#006100">317</text>
 <text text-anchor="start" x="7988.12" y="-2407.32" font-family="Times New Roman" font-size="14.00" fill="#006100">Billy Hickman</text>
-<text text-anchor="start" x="8019.25" y="-2390.07" font-family="Times New Roman" font-size="14.00" fill="#006100">† Ρ</text>
+<text text-anchor="start" x="8015.88" y="-2390.07" font-family="Times New Roman" font-size="14.00" fill="#006100">✝ Ρ</text>
 </a>
 </g>
 </g>
@@ -2827,8 +2827,8 @@
 <path fill="#ffc000" stroke="black" d="M10891,-2664C10891,-2664 10771,-2664 10771,-2664 10765,-2664 10759,-2658 10759,-2652 10759,-2652 10759,-2604 10759,-2604 10759,-2598 10765,-2592 10771,-2592 10771,-2592 10891,-2592 10891,-2592 10897,-2592 10903,-2598 10903,-2604 10903,-2604 10903,-2652 10903,-2652 10903,-2658 10897,-2664 10891,-2664"/>
 <text text-anchor="start" x="10819.75" y="-2636.7" font-family="Times New Roman" font-size="14.00" fill="#806000">304</text>
 <text text-anchor="start" x="10786.75" y="-2622.7" font-family="Times New Roman" font-size="14.00" fill="#806000">Rusty Sprague</text>
-<text text-anchor="start" x="10789" y="-2608.7" font-family="Times New Roman" font-size="14.00" fill="#806000">† </text>
-<text text-anchor="start" x="10801" y="-2608.7" font-family="Times New Roman" font-style="italic" font-size="14.00" fill="#806000">Hon. Father</text>
+<text text-anchor="start" x="10784.5" y="-2608.7" font-family="Times New Roman" font-size="14.00" fill="#806000">✝ </text>
+<text text-anchor="start" x="10805.5" y="-2608.7" font-family="Times New Roman" font-style="italic" font-size="14.00" fill="#806000">Hon. Father</text>
 </a>
 </g>
 </g>
@@ -3159,7 +3159,7 @@
 <path fill="#548235" stroke="black" d="M11701,-2880C11701,-2880 11581,-2880 11581,-2880 11575,-2880 11569,-2874 11569,-2868 11569,-2868 11569,-2820 11569,-2820 11569,-2814 11575,-2808 11581,-2808 11581,-2808 11701,-2808 11701,-2808 11707,-2808 11713,-2814 11713,-2820 11713,-2820 11713,-2868 11713,-2868 11713,-2874 11707,-2880 11701,-2880"/>
 <text text-anchor="start" x="11629.75" y="-2856.57" font-family="Times New Roman" font-size="14.00" fill="#e2efda">326</text>
 <text text-anchor="start" x="11590.75" y="-2839.32" font-family="Times New Roman" font-size="14.00" fill="#e2efda">Dolan Wostal III</text>
-<text text-anchor="start" x="11631.25" y="-2822.07" font-family="Times New Roman" font-size="14.00" fill="#e2efda">† Ρ</text>
+<text text-anchor="start" x="11627.88" y="-2822.07" font-family="Times New Roman" font-size="14.00" fill="#e2efda">✝ Ρ</text>
 </a>
 </g>
 </g>
@@ -3617,7 +3617,7 @@
 <path fill="#ffc000" stroke="black" d="M7045,-2340C7045,-2340 6925,-2340 6925,-2340 6919,-2340 6913,-2334 6913,-2328 6913,-2328 6913,-2280 6913,-2280 6913,-2274 6919,-2268 6925,-2268 6925,-2268 7045,-2268 7045,-2268 7051,-2268 7057,-2274 7057,-2280 7057,-2280 7057,-2328 7057,-2328 7057,-2334 7051,-2340 7045,-2340"/>
 <text text-anchor="start" x="6973.75" y="-2316.57" font-family="Times New Roman" font-size="14.00" fill="#806000">346</text>
 <text text-anchor="start" x="6926.5" y="-2299.32" font-family="Times New Roman" font-size="14.00" fill="#806000">Allen McFarland, Jr.</text>
-<text text-anchor="start" x="6974.88" y="-2282.07" font-family="Times New Roman" font-size="14.00" fill="#806000">† Τ</text>
+<text text-anchor="start" x="6971.5" y="-2282.07" font-family="Times New Roman" font-size="14.00" fill="#806000">✝ Τ</text>
 </a>
 </g>
 </g>
@@ -3949,8 +3949,8 @@
 <path fill="#ffc000" stroke="black" d="M7207,-2232C7207,-2232 7087,-2232 7087,-2232 7081,-2232 7075,-2226 7075,-2220 7075,-2220 7075,-2172 7075,-2172 7075,-2166 7081,-2160 7087,-2160 7087,-2160 7207,-2160 7207,-2160 7213,-2160 7219,-2166 7219,-2172 7219,-2172 7219,-2220 7219,-2220 7219,-2226 7213,-2232 7207,-2232"/>
 <text text-anchor="start" x="7135.75" y="-2204.7" font-family="Times New Roman" font-size="14.00" fill="#806000">351</text>
 <text text-anchor="start" x="7099.38" y="-2190.7" font-family="Times New Roman" font-size="14.00" fill="#806000">Allen McFarland</text>
-<text text-anchor="start" x="7105" y="-2176.7" font-family="Times New Roman" font-size="14.00" fill="#806000">† </text>
-<text text-anchor="start" x="7117" y="-2176.7" font-family="Times New Roman" font-style="italic" font-size="14.00" fill="#806000">Hon. Father</text>
+<text text-anchor="start" x="7100.5" y="-2176.7" font-family="Times New Roman" font-size="14.00" fill="#806000">✝ </text>
+<text text-anchor="start" x="7121.5" y="-2176.7" font-family="Times New Roman" font-style="italic" font-size="14.00" fill="#806000">Hon. Father</text>
 </a>
 </g>
 </g>
@@ -4291,8 +4291,9 @@
 <title>T1</title>
 <g id="a_node257"><a xlink:title="Tempe Mafia">
 <path fill="#8c1d40" stroke="black" d="M12025,-2988C12025,-2988 11905,-2988 11905,-2988 11899,-2988 11893,-2982 11893,-2976 11893,-2976 11893,-2928 11893,-2928 11893,-2922 11899,-2916 11905,-2916 11905,-2916 12025,-2916 12025,-2916 12031,-2916 12037,-2922 12037,-2928 12037,-2928 12037,-2976 12037,-2976 12037,-2982 12031,-2988 12025,-2988"/>
-<text text-anchor="start" x="11957.12" y="-2955.95" font-family="Times New Roman" font-size="14.00" fill="#ffc627">T1</text>
-<text text-anchor="start" x="11945.5" y="-2938.7" font-family="Times New Roman" font-size="14.00" fill="#ffc627">JD Hill</text>
+<text text-anchor="start" x="11957.12" y="-2964.57" font-family="Times New Roman" font-size="14.00" fill="#ffc627">T1</text>
+<text text-anchor="start" x="11945.5" y="-2947.32" font-family="Times New Roman" font-size="14.00" fill="#ffc627">JD Hill</text>
+<text text-anchor="start" x="11939.88" y="-2930.07" font-family="Times New Roman" font-size="14.00" fill="#ffc627">Transfer</text>
 </a>
 </g>
 </g>
@@ -4442,7 +4443,7 @@
 <path fill="#fffdc7" stroke="black" d="M8231,-2124C8231,-2124 8111,-2124 8111,-2124 8105,-2124 8099,-2118 8099,-2112 8099,-2112 8099,-2064 8099,-2064 8099,-2058 8105,-2052 8111,-2052 8111,-2052 8231,-2052 8231,-2052 8237,-2052 8243,-2058 8243,-2064 8243,-2064 8243,-2112 8243,-2112 8243,-2118 8237,-2124 8231,-2124"/>
 <text text-anchor="start" x="8159.75" y="-2100.57" font-family="Times New Roman" font-size="14.00" fill="#ff0000">425</text>
 <text text-anchor="start" x="8127.88" y="-2083.32" font-family="Times New Roman" font-size="14.00" fill="#ff0000">Trevor Dahms</text>
-<text text-anchor="start" x="8147" y="-2066.07" font-family="Times New Roman" font-size="14.00" fill="#ff0000">† ΑΔ ☠</text>
+<text text-anchor="start" x="8143.62" y="-2066.07" font-family="Times New Roman" font-size="14.00" fill="#ff0000">✝ ΑΔ ☠</text>
 </a>
 </g>
 </g>
@@ -4755,7 +4756,7 @@
 <path fill="#fff2cc" stroke="black" d="M4134,-1584C4134,-1584 4014,-1584 4014,-1584 4008,-1584 4002,-1578 4002,-1572 4002,-1572 4002,-1524 4002,-1524 4002,-1518 4008,-1512 4014,-1512 4014,-1512 4134,-1512 4134,-1512 4140,-1512 4146,-1518 4146,-1524 4146,-1524 4146,-1572 4146,-1572 4146,-1578 4140,-1584 4134,-1584"/>
 <text text-anchor="start" x="4062.75" y="-1560.58" font-family="Times New Roman" font-size="14.00" fill="#bf8f00">454</text>
 <text text-anchor="start" x="4039.5" y="-1543.33" font-family="Times New Roman" font-size="14.00" fill="#bf8f00">Wes Parker</text>
-<text text-anchor="start" x="4061.25" y="-1526.08" font-family="Times New Roman" font-size="14.00" fill="#bf8f00">† ΒΙ</text>
+<text text-anchor="start" x="4057.88" y="-1526.08" font-family="Times New Roman" font-size="14.00" fill="#bf8f00">✝ ΒΙ</text>
 </a>
 </g>
 </g>
@@ -5047,7 +5048,7 @@
 <path fill="#fff2cc" stroke="black" d="M4093,-1476C4093,-1476 3973,-1476 3973,-1476 3967,-1476 3961,-1470 3961,-1464 3961,-1464 3961,-1416 3961,-1416 3961,-1410 3967,-1404 3973,-1404 3973,-1404 4093,-1404 4093,-1404 4099,-1404 4105,-1410 4105,-1416 4105,-1416 4105,-1464 4105,-1464 4105,-1470 4099,-1476 4093,-1476"/>
 <text text-anchor="start" x="4021.75" y="-1452.58" font-family="Times New Roman" font-size="14.00" fill="#bf8f00">461</text>
 <text text-anchor="start" x="3998.12" y="-1435.33" font-family="Times New Roman" font-size="14.00" fill="#bf8f00">Al Memovic</text>
-<text text-anchor="start" x="4018.75" y="-1418.08" font-family="Times New Roman" font-size="14.00" fill="#bf8f00">† ΒΚ</text>
+<text text-anchor="start" x="4015.38" y="-1418.08" font-family="Times New Roman" font-size="14.00" fill="#bf8f00">✝ ΒΚ</text>
 </a>
 </g>
 </g>
@@ -5689,7 +5690,7 @@
 <path fill="#c00000" stroke="black" d="M6918,-1476C6918,-1476 6798,-1476 6798,-1476 6792,-1476 6786,-1470 6786,-1464 6786,-1464 6786,-1416 6786,-1416 6786,-1410 6792,-1404 6798,-1404 6798,-1404 6918,-1404 6918,-1404 6924,-1404 6930,-1410 6930,-1416 6930,-1416 6930,-1464 6930,-1464 6930,-1470 6924,-1476 6918,-1476"/>
 <text text-anchor="start" x="6846.75" y="-1452.58" font-family="Times New Roman" font-size="14.00" fill="#ffd1d3">512</text>
 <text text-anchor="start" x="6816.75" y="-1435.33" font-family="Times New Roman" font-size="14.00" fill="#ffd1d3">Jordan Richie</text>
-<text text-anchor="start" x="6844.12" y="-1418.08" font-family="Times New Roman" font-size="14.00" fill="#ffd1d3">† ΒΡ</text>
+<text text-anchor="start" x="6840.75" y="-1418.08" font-family="Times New Roman" font-size="14.00" fill="#ffd1d3">✝ ΒΡ</text>
 </a>
 </g>
 </g>
@@ -6543,7 +6544,7 @@
 <path fill="#fffdc7" stroke="black" d="M8052,-1368C8052,-1368 7932,-1368 7932,-1368 7926,-1368 7920,-1362 7920,-1356 7920,-1356 7920,-1308 7920,-1308 7920,-1302 7926,-1296 7932,-1296 7932,-1296 8052,-1296 8052,-1296 8058,-1296 8064,-1302 8064,-1308 8064,-1308 8064,-1356 8064,-1356 8064,-1362 8058,-1368 8052,-1368"/>
 <text text-anchor="start" x="7980.75" y="-1344.58" font-family="Times New Roman" font-size="14.00" fill="#ff0000">556</text>
 <text text-anchor="start" x="7953.38" y="-1327.33" font-family="Times New Roman" font-size="14.00" fill="#ff0000">Joel Maxwell</text>
-<text text-anchor="start" x="7977" y="-1310.08" font-family="Times New Roman" font-size="14.00" fill="#ff0000">† ΒΩ</text>
+<text text-anchor="start" x="7973.62" y="-1310.08" font-family="Times New Roman" font-size="14.00" fill="#ff0000">✝ ΒΩ</text>
 </a>
 </g>
 </g>
@@ -6766,7 +6767,7 @@
 <path fill="#ffc000" stroke="black" d="M5477,-1152C5477,-1152 5357,-1152 5357,-1152 5351,-1152 5345,-1146 5345,-1140 5345,-1140 5345,-1092 5345,-1092 5345,-1086 5351,-1080 5357,-1080 5357,-1080 5477,-1080 5477,-1080 5483,-1080 5489,-1086 5489,-1092 5489,-1092 5489,-1140 5489,-1140 5489,-1146 5483,-1152 5477,-1152"/>
 <text text-anchor="start" x="5405.75" y="-1128.58" font-family="Times New Roman" font-size="14.00" fill="#806000">570</text>
 <text text-anchor="start" x="5377.25" y="-1111.33" font-family="Times New Roman" font-size="14.00" fill="#806000">Blake Hadley</text>
-<text text-anchor="start" x="5403.88" y="-1094.08" font-family="Times New Roman" font-size="14.00" fill="#806000">† ΓΕ</text>
+<text text-anchor="start" x="5400.5" y="-1094.08" font-family="Times New Roman" font-size="14.00" fill="#806000">✝ ΓΕ</text>
 </a>
 </g>
 </g>
@@ -10237,7 +10238,7 @@
 <g id="a_node675"><a xlink:title="Playboys">
 <path fill="#b4c6e7" stroke="black" d="M4840,-180C4840,-180 4720,-180 4720,-180 4714,-180 4708,-174 4708,-168 4708,-168 4708,-120 4708,-120 4708,-114 4714,-108 4720,-108 4720,-108 4840,-108 4840,-108 4846,-108 4852,-114 4852,-120 4852,-120 4852,-168 4852,-168 4852,-174 4846,-180 4840,-180"/>
 <text text-anchor="start" x="4768.75" y="-156.57" font-family="Times New Roman" font-size="14.00" fill="#002060">732</text>
-<text text-anchor="start" x="4745.5" y="-139.32" font-family="Times New Roman" font-size="14.00" fill="#002060">Alex Muñoz</text>
+<text text-anchor="start" x="4737.25" y="-139.32" font-family="Times New Roman" font-size="14.00" fill="#002060">Alex Muï¿½oz</text>
 <text text-anchor="start" x="4772.12" y="-122.08" font-family="Times New Roman" font-size="14.00" fill="#002060">ΔΓ</text>
 </a>
 </g>

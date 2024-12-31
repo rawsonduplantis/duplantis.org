@@ -10,9 +10,10 @@ import LandingPage from './components/LandingPage';
 import Passarelleo from './routes/passarelleo';
 import Imperialism from './routes/imperialism';
 import Messages from './routes/messages';
-import Fraternity from './routes/fraternity';
+import Fraternity from './routes/fraternity/fraternity';
 import FullTree from './routes/fulltree'
 import NavBar from './components/navigation/NavBar';
+import FraternityLogin from './routes/fraternity/fraternitylogin';
 
 import {
   createBrowserRouter,
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: '/fraternity',
         element: <Fraternity />,
+      },
+      {
+        path: '/fraternity/login',
+        element: <FraternityLogin />,
       },
       {
         path: '/passarelleo',
