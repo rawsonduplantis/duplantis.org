@@ -36,9 +36,7 @@ export default function FraternityLogin() {
         <NavBar />
         <div className="bg-orange-100/75 h-full w-screen pt-16">
             <div className="flex h-full">
-                <div className="m-auto w-4/5 md:w-1/2 xl:w-1/3 2xl:w-1/4">
-                    <p className="text-1xl m-4 text-orange-950/75 text-center cursor-default select-none">Click <a href="/fraternitytree" className="text-1xl text-orange-950/75 text-center cursor-pointer select-none">here</a> for full tree</p>
-                    
+                <div className="m-auto w-4/5 md:w-1/2 xl:w-1/3 2xl:w-1/4">                    
                     <form onSubmit={submitUser} className="space-y-4 bg-orange-50/75 border border-orange-950/75 p-4 rounded-lg flex-col w-full">
                         <div className="flex items-center justify-center w-full">
                             <input id="lastname" type="text" name="lastname" placeholder="Last Name" onChange={(e) => setLastname(e.target.value)}
