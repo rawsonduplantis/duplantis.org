@@ -6,7 +6,12 @@ import { log } from "console"
 export default function Fraternity() {
     const nav = useNavigate()
     const [token, setToken] = useState<string>('')
-    const [userData, setUserData] = useState({})
+    interface UserData {
+        safehouseKey: string;
+        // add other properties as needed
+    }
+
+    const [userData, setUserData] = useState<UserData | null>(null)
 
     useEffect(() => {
         const token = localStorage.getItem('jwt-token') || ''
@@ -39,8 +44,7 @@ export default function Fraternity() {
         nav('/fraternity/login')
     }
     
-
-    return(<>
+    return (<>
         <NavBar />
         <div className="bg-orange-100/75 h-full w-screen pt-16">
             <div className="flex h-full">
