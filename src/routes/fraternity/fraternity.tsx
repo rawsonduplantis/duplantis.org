@@ -42,13 +42,13 @@ export default function Fraternity() {
 
     return(<>
         <NavBar />
-        <body className="bg-orange-100/75 h-full w-screen pt-16">
+        <div className="bg-orange-100/75 h-full w-screen pt-16">
             <div className="flex h-full">
                 <div className="m-auto">
                     <p className="text-1xl text-orange-950/75 text-center cursor-default select-none">{userData?.safehouseKey}</p>
                     <button className="w-24 ml-auto mr-auto bg-orange-950/75 hover:bg-orange-950/80 active:bg-orange-950/90 text-white py-2 px-4 rounded-lg font-semibold m-auto" onClick={logout}>Logout</button>
                 </div>
             </div>
-        </body>
+        </div>
     </>)
 }
